@@ -102,7 +102,7 @@ def main(folder: Path):
         # some other
 
     for file in parser.SOME:
-        handle_other(file, folder / 'SOME')
+        handle_other(file, folder / 'Unsorted')
 
     # archives
 
